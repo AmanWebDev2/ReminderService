@@ -14,6 +14,7 @@ const validateNotificationRequest = (req,res,next) => {
             err: 'missing parameter in the request body'
         })
     }
+    next();
 }
 
 module.exports = {
